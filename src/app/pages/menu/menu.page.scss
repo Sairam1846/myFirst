@@ -1,0 +1,81 @@
+.dashboard-header {
+  position: absolute ;
+  width: 100%;
+  min-width: 1024px;
+  height: 46px;
+  padding: 6px 0 0 0;
+  background: #13080e;
+}
+
+.image {
+  height: 5vw;
+  width: 5vw;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px gray;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.dashboard-header .supervisor-info {
+  float: left;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 24px;
+  font-family: "Segoe UI Light", "Helvetica Neue Light", "Segoe UI",
+    "Helvetica Neue", "Trebuchet MS", Helvetica, "Droid Sans", Tahoma, Geneva,
+    sans-serif;
+  font-weight: 200;
+
+}
+
+.circle-pic {
+  background-image: url(http://autokadabra.ru/system/uploads/users/18/18340/small.png?1318432918);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin: 0px 12px 0 0;
+  float: left;
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+}
+
+.date {
+  float: right;
+  padding: 8px 0 0 0;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 18px;
+  font-family: "Segoe UI Light", "Helvetica Neue Light", "Segoe UI",
+    "Helvetica Neue", "Trebuchet MS", Helvetica, "Droid Sans", Tahoma, Geneva,
+    sans-serif;
+  font-weight: 200;
+}
+
+.salesRevenue {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Segoe UI Light", "Helvetica Neue Light", "Segoe UI",
+    "Helvetica Neue", "Trebuchet MS", Helvetica, "Droid Sans", Tahoma, Geneva,
+    sans-serif;
+  font-weight: 200;
+}
+
+
+.active-item
+ {
+   border-left: 8px solid var(--ion-color-primary);
+ }
+
+
+ .navigation-item {
+  cursor:pointer;
+  height: auto;
+  border: 0px solid rgba(255,255,255,0.15);
+  border-width: 0 0 1px;
+  padding: 18px 20px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  text-align: justify;
+  // background-image: url(https://js.devexpress.com/Demos/SalesDashboard/Images/Icons/Products.png);
+}
